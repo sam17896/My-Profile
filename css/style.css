@@ -1,0 +1,59 @@
+#logo{
+	background: red;
+}
+#section1{
+	background-size: cover;                      /* <------ */
+    background-repeat:  no-repeat;
+    background-position: center;
+    color: white;
+    height: 800px;
+}
+.square{
+	height: 100px;
+	width: 100px;
+}
+.portrait{
+	width: 250px;
+	height: 400px;
+}
+#header{
+	margin-top: 50px;
+}
+#header li{
+	display: inline;
+	float: left;
+	list-style: none;
+}
+#header li a {
+	color: white;
+}
+#header ul{
+	margin-top: 30px;
+}
+#s1body{
+	margin-top: 200px;
+}
+#s1body h1{
+	text-align: center;
+}
+hr { 
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border: 2px solid #fb0f51;
+    width: 100px;
+}
+#section2{
+	margin-top: 30px;
+}
+#skill{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#skill img{
+	margin-top: 20px;
+	width: 70px;
+	height: 40px;
+}
+#skill p{
+	margin-left: 60px;
+}
