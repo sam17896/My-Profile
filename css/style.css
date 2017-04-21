@@ -6,7 +6,7 @@
     background-repeat:  no-repeat;
     background-position: center;
     color: white;
-    height: 800px;
+    height: 600px;
 }
 .square{
 	height: 100px;
@@ -56,4 +56,35 @@ hr {
 }
 #skill p{
 	margin-left: 60px;
+}
+#skill h1{
+	font-weight: bolder;
+}
+.folio{
+	width: 300px;
+	height: 330px;
+	padding: 0 !important;
+   	margin: 0 !important;
+}
+#section4{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	align-items: center;
+}
+#user{
+	margin-top: 40px;
+}
+#user p{
+	margin-left: 83px;	
+	margin-top: -20px;
+}
+#user img{
+	margin-top: 20px;
+}
+.clear{
+	margin-top: 50px;
+}
+.sign{
+	height: 100px;
+	width: 150px;
 }
