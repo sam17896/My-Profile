@@ -1,40 +1,49 @@
 #logo{
 	background: red;
 }
-#section1{
-	background-size: cover;                      /* <------ */
-    background-repeat:  no-repeat;
-    background-position: center;
-    color: white;
-    height: 600px;
-}
 .square{
 	height: 100px;
 	width: 100px;
 }
 .portrait{
-	width: 250px;
-	height: 400px;
+	width: 450px;
+	height: 600px;
 }
-#header{
-	margin-top: 50px;
+#header {
+	background-color: white;
+	height: 60px;
 }
 #header li{
 	display: inline;
-	float: left;
+	float: right;
 	list-style: none;
 }
 #header li a {
-	color: white;
+	color: black;
 }
 #header ul{
 	margin-top: 30px;
 }
 #s1body{
-	margin-top: 200px;
+	height: 400px;
+	background-size: cover;                      /* <------ */
+    background-repeat:  no-repeat;
+    background-position: center;
+    color: white;
+
 }
-#s1body h1{
+.content{
+	position: absolute;
 	text-align: center;
+	margin-top: 100px;
+	margin-left: 35%;
+}
+.button{
+	border: 1px solid white;
+	color: white;
+	width: 100px;
+	height: 60px;
+	background-color: transparent;
 }
 hr { 
     margin-top: 0.5em;
@@ -87,4 +96,26 @@ hr {
 .sign{
 	height: 100px;
 	width: 150px;
+}
+.cv{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #164E71;
+	color: white;
+	width: 150px;
+	height: 50px;
+}
+
+#myskills{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	height: 600px;
+	background-size: cover;                      /* <------ */
+    background-repeat:  no-repeat;
+    background-position: center;
+    color: white;
+}
+#myskills .content{
+	margin-left: 0;
+	margin-top: 200px;
 }
