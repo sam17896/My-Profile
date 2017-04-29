@@ -25,7 +25,7 @@
 	margin-top: 30px;
 }
 #s1body{
-	height: 400px;
+	height: 600px;
 	background-size: cover;                      /* <------ */
     background-repeat:  no-repeat;
     background-position: center;
@@ -33,16 +33,26 @@
 
 }
 .content{
-	position: absolute;
 	text-align: center;
-	margin-top: 100px;
-	margin-left: 35%;
+	margin-top: 200px;
+}
+.content h2{
+	color: #94a6ba;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+.content h1{
+	font-size: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 .button{
 	border: 1px solid white;
 	color: white;
-	width: 100px;
+	width: 200px;
 	height: 60px;
+	font-size: 25px;
 	background-color: transparent;
 }
 hr { 
@@ -118,4 +128,20 @@ hr {
 #myskills .content{
 	margin-left: 0;
 	margin-top: 200px;
+}
+.wrapper button{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#sectionskills{
+	background-size: cover;                      /* <------ */
+    background-repeat:  no-repeat;
+    background-position: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.skilltxt{
+	position: absolute;
+	margin-top: 200px;
+	color: white;
 }
