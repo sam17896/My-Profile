@@ -11,7 +11,8 @@
 }
 #header {
 	background-color: white;
-	height: 60px;
+	height: 60px;/*
+	position: fixed;*/
 }
 #header li{
 	display: inline;
@@ -177,7 +178,22 @@ font-weight: 500;
 	font-size: 20px;
 }
 .cards .content{
-	text-align: justify;
+	text-align: center;
 	font-size: 15px;
 	margin-top: 20px;
 }
+#section3 .header{
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+#section3 .links{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+#section3 li{
+	display: inline-block;
+}
+.portfolio{
+	}
