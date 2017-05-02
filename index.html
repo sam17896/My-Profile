@@ -10,7 +10,7 @@
     <script src="js/myjs.js"></script>
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
-    <link href="css/font-awesome.min.css" style/style.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
@@ -32,8 +32,11 @@
                 </div>
             </div>
         </div>
-    </div>    
-    <div id="s1body" style="background-image: url(img/img-bg.jpg);">
+    </div> 
+       <div class="containter-fluid">
+    <div id="s1body">
+    
+    <div class="container ">
      <div class="row">
         <div class="content">
             <div class="col-md-4"></div>
@@ -44,9 +47,10 @@
                     <button class="button">Hire Me</button>
                 </div>
             </div>
-            <div class="col-md-4"></div> 
-        </div>
-     </div> 
+            <div class="col-md-4"></div>
+            </div> 
+     </div>
+     </div>
      </div>  
  </div> 
  <div id="section2" style="background-color: white">
@@ -136,18 +140,29 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="cards">
+                    <div class="service-icon">
+                        <i class="fa fa-building icon" aria-hidden="true"></i>
+                    </div>
                     <p class="headers">Web Development</p>
                     <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi varius lacinia vestibulum. Aliquam lobortis facilisis tellus, in facilisis ex vehicula ac. In malesuada quis turpis vel viverra. Praesent nec leo venenatis elit semper aliquet id ac enim. Maecenas nec mi leo. Etiam venenatis ut dui non hendrerit. Integer dictum, diam vitae blandit accumsan, dolor odio tempus arcu, vel ultrices nisi nibh vitae ligula.</p>
                </div> 
             </div>
             <div class="col-md-4">
                 <div class="cards">
+                    <div class="service-icon">
+                        <i class="fa fa-building icon" aria-hidden="true"></i>
+                    </div>
+                    
                     <p class="headers">Android Development</p>
                     <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi varius lacinia vestibulum. Aliquam lobortis facilisis tellus, in facilisis ex vehicula ac. In malesuada quis turpis vel viverra. Praesent nec leo venenatis elit semper aliquet id ac enim. Maecenas nec mi leo. Etiam venenatis ut dui non hendrerit. Integer dictum, diam vitae blandit accumsan, dolor odio tempus arcu, vel ultrices nisi nibh vitae ligula.</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="cards">
+                    <div class="service-icon">
+                        <i class="fa fa-building icon" aria-hidden="true"></i>
+                    </div>
+                    
                     <p class="headers">Backend Development</p>
                     <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi varius lacinia vestibulum. Aliquam lobortis facilisis tellus, in facilisis ex vehicula ac. In malesuada quis turpis vel viverra. Praesent nec leo venenatis elit semper aliquet id ac enim. Maecenas nec mi leo. Etiam venenatis ut dui non hendrerit. Integer dictum, diam vitae blandit accumsan, dolor odio tempus arcu, vel ultrices nisi nibh vitae ligula.</p>
                 </div>
@@ -178,71 +193,93 @@
             <div class="col-md-3"><div class="portfolio"><img src="img/port-10-1024x998.jpg" alt="" class="folio"/></div></div>
             <div class="col-md-3"><div class="portfolio"><img src="img/port-11-1024x998.jpg" alt="" class="folio"/></div></div>
             <div class="col-md-3"><div class="portfolio"><img src="img/port-12-1024x998.jpg" alt="" class="folio"/></div></div>
-            <div class="col-md-3"><div class="portfolio"><img src="img/port-9-1024x998.jpg" alt="" class="folio"/></div></div>
-            
+            <div class="col-md-3"><div class="portfolio"><img src="img/port-9-1024x998.jpg" alt="" class="folio"/></div></div>    
         </div>
+        <div class="margin"></div>
         <div class="row">
-            <div class="col-md-3"><img src="img/port-5-1024x998.jpg" alt="" class="folio" /></div>
-            <div class="col-md-3"><img src="img/port-6-1024x998.jpg" alt="" class="folio"/></div>
-            <div class="col-md-3"><img src="img/port-7-1024x998.jpg" alt="" class="folio"/></div>
-            <div class="col-md-3"><img src="img/port-8-1024x998.jpg" alt="" class="folio"/></div>
-            </div>
+            <div class="col-md-3"><div class="portfolio"><img src="img/port-5-1024x998.jpg" alt="" class="folio"/></div></div>
+            <div class="col-md-3"><div class="portfolio"><img src="img/port-6-1024x998.jpg" alt="" class="folio"/></div></div>
+            <div class="col-md-3"><div class="portfolio"><img src="img/port-7-1024x998.jpg" alt="" class="folio"/></div></div>
+            <div class="col-md-3"><div class="portfolio"><img src="img/port-8-1024x998.jpg" alt="" class="folio"/></div></div>
+        </div>
      </div>       
 </div>
-<div id="section4">
+<div class="section-break"></div>
+<div id="section-contact" style="background-image: url(img/contact.jpg);">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>"Where do new ideas come from? The answer is simple: differences. Creativity comes from unlikely juxtapositions."</h>
-            </div>
-            <div class="col-md-4"></div>
-            <div class="col-md-4" id="user">
-                <div class="row">
-                     <img class="col-md-3 img-responsive" src="img/author1-80x80.jpg"  alt="edit"/>
-                     <h2>Michel Brown</h2>
+                <div id="contact-header">
+                    <h1>GET IN TOUCH</h1>
                 </div>
-                <p>Designer</p>
             </div>
-            <div class="col-md-4"></div>
-        </div>
+         </div>   
+         <div class="row">
+             <div class="col-md-offset-2 col-md-8">
+                     <div class="row">
+                         <div class="col-md-4">
+                             <div class="contact-icon">
+                                 <i class="fa fa-building" aria-hidden="true"></i>
+                             </div>
+                             <div class="contact-content">
+                                 <h3>Address</h3>
+                                 <p>18-c xyz Street</p>
+                             </div>
+                         </div>
+                         <div class="col-md-4">
+                             <div class="contact-icon">
+                                 <i class="fa fa-phone" aria-hidden="true"></i>
+                             </div>
+                             <div class="contact-content">
+                                 <p><span style="font-weight: bold;">Phone:</span>000-000<p>
+                                 <p><span style="font-weight: bold;">Mobile:</span>0000-0000</p>
+                             </div>
+                         </div>
+                         <div class="col-md-4">
+                             <div class="contact-icon">
+                                 <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                             </div>
+                             <div class="contact-content">
+                                 <h3>Email</h3>
+                                 <p>Ahsan.kai@gmail.com</p>
+                             </div>
+                         </div>
+                     </div>
+             </div>
+         </div>
+         <div class="row">
+             <div class="container">
+             <div class="col-md-offset-2 col-md-8">
+               <div class="row">
+                         <div class="contact-form">
+                             <form class="contact-form-area">
+                                 <div class="col-md-6">
+                                     <input type="text" id="name" name="" placeholder="Name">
+                                 </div>
+                                 <div class="col-md-6">
+                                     <input type="text" id="email" name="" placeholder="Email">
+                                 </div>
+                                 <div class="col-md-12">
+                                     <textarea placeholder="Type here" id="message"></textarea>
+                                     <input type="button" name="submit" class="button" value="Submit">
+                                 </div>
+                             </form>
+                         </div>
+                     
+                 </div>
+                 </div>
+                 </div>
+         </div>
     </div>
 </div>
-<div id="section5">
+<footer>
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
-                <h1>Our Clients</h1>
-                <hr align="left">
-                <p>Designed and built with care</p>
-                <p>Praesent nec leo venenatis elit semper aliquet id ac enim. Maecenas nec mi leo. Etiam venenatis ut dui non hendrerit. Integer dictum, diam vitae blandit accumsan, dolor odio tempus arcu, vel ultrices nisi nibh vitae ligula.</p>
-            </div>
-            <div class="col-md-6">
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="img/p1.png" />
-                    </div>
-                    <div class="col-md-4">
-                        <img src="img/p2.png"/>
-                    </div>
-                    <div class="col-md-4">
-                        <img src="img/p3.png"/>
-                    </div>
-                </div>
-                <div class="clear"></div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="img/p4.png"/>
-                    </div>
-                    <div class="col-md-4">
-                        <img src="img/p5.png"/>
-                    </div>
-                    <div class="col-md-4">
-                        <img src="img/p6.png"/>
-                    </div>
-                </div>
+            <div class="col-md-12">
+                <p>Copyright © 2017 Creative Lair | All rights reserved</p>
             </div>
         </div>
     </div>
-</div>
+</footer>
 </body>
 </html>

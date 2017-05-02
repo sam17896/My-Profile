@@ -26,16 +26,16 @@
 	margin-top: 30px;
 }
 #s1body{
-	height: 600px;
-	background-size: cover;                      /* <------ */
+	height: 600px;/* <------ */
     background-repeat:  no-repeat;
-    background-position: center;
+    background: url('../img/img-bg.jpg') no-repeat;
+    background-size: cover;
     color: white;
 
 }
 .content{
-	text-align: center;
 	margin-top: 200px;
+	text-align: center;
 }
 .content h2{
 	color: #94a6ba;
@@ -81,11 +81,9 @@ hr {
 	font-weight: bolder;
 }
 .folio{
-	width: 300px;
-	height: 330px;
-	padding: 0 !important;
-   	margin: 0 !important;
+	width: 100%;	
 }
+
 #section4{
 	margin-top: 50px;
 	margin-bottom: 50px;
@@ -176,6 +174,7 @@ font-weight: 500;
 .cards .headers{
 	text-align: center;
 	font-size: 20px;
+	margin-top: 30px;
 }
 .cards .content{
 	text-align: center;
@@ -195,5 +194,83 @@ font-weight: 500;
 #section3 li{
 	display: inline-block;
 }
-.portfolio{
-	}
+.margin {
+	margin-top: 20px;
+}
+.section-break{
+	margin-top: 50px;
+}
+#section-contact{
+	height: 800px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#contact-header{
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 40px;
+}
+.service-icon{
+	text-align: center;
+    color: #164E71;
+    background: #f0efef;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    border-radius: 30px;
+    line-height: 60px;
+    font-size: 20px;
+    margin-top: 25px;
+  
+}
+.contact-icon{
+	text-align: center;
+    color: #164E71;
+    background: #f0efef;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    border-radius: 30px;
+    line-height: 60px;
+    font-size: 20px;
+}
+
+.contact-content{
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+}
+form input, form textarea{
+	display: block;
+    width: 100%;
+    border: 0px;
+    padding-left: 14px;
+    border: 1px solid #E4E4E4;
+}
+form #name, form #email{
+	height: 50px;
+}
+.contact-form{
+	margin-top: 30px;
+}
+form textarea{
+	padding-top: 10px;
+	margin-top: 20px;
+	height: 160px;
+}
+form input[type=button]{
+	margin : 0 auto;
+	margin-top: 20px;
+
+}
+footer{
+	background: #333;
+	height: 100px;
+}
+footer p{
+	color: white;
+	text-align: center;
+	margin-top: 35px;
+}
