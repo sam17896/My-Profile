@@ -118,7 +118,6 @@ hr {
 #myskills{
 	margin-top: 100px;
 	margin-bottom: 100px;
-	height: 600px;
 	background-size: cover;                      /* <------ */
     background-repeat:  no-repeat;
     background-position: center;
@@ -148,7 +147,7 @@ hr {
 	color: white;
 }
 .skillprogress p{
-font-weight: 500;
+	font-weight: 500;
     color: white;
     font-size: 20px;
     margin-bottom: 20px;
@@ -160,7 +159,7 @@ font-weight: 500;
 	background-color: rgba(234, 234, 234, 0.9);
 }
 #service .header{
-	margin-top: 100px;
+	margin-top: 50px;
 	text-align: center;
 	color: black;
 	margin-bottom: 20px;
